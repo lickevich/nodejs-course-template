@@ -4,8 +4,8 @@ const fs = require('fs');
 
 const read = args => {
   const { input, output, action, shift } = args;
-  const isOutputPath = () => fs.existsSync(output);
-  const isInputPath = () => fs.existsSync(input);
+  const isOutputPath = fs.existsSync(output);
+  const isInputPath = fs.existsSync(input);
   const shiftToNumber = Number.parseInt(shift, 10);
 
   if (isNaN(shiftToNumber)) {

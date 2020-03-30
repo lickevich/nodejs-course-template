@@ -13,7 +13,7 @@ const read = args => {
     process.exit(1);
   }
   if (shiftToNumber < 0 || shiftToNumber > 25) {
-    process.stderr.write('Please, enter numbers from 0 to 25');
+    process.stderr.write('Please, enter shift: 0 to 25');
     process.exit(1);
   }
   if (output && !isOutputPath) {
@@ -21,11 +21,7 @@ const read = args => {
     process.exit(1);
   }
   if (action !== 'encode' && action !== 'decode') {
-    process.stderr.write('Please, enter action');
-    process.exit(1);
-  }
-  if (!shift) {
-    process.stderr.write('Please, enter shift');
+    process.stderr.write('Please, enter action: encode/decode');
     process.exit(1);
   }
   if (input) {

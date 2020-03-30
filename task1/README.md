@@ -13,7 +13,7 @@ CLI tool has 4 options (short alias and full name):
 ```bash
 $ git clone https://github.com/lickevich/nodejs-course-template.git
 $ cd nodejs-course-template
-Switch branch master to task1
+$ git checkout task1
 $ npm i
 $ cd task1
 ```

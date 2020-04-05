@@ -1,58 +1,56 @@
 const router = require('express').Router();
-const User = require('./user.model');
-const usersService = require('./user.service');
+const boardsService = require('./board.service');
 
 router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
+  const boards = await boardsService.getAll();
 
   res
     .set('Accept', 'application/json')
     .contentType('application/json')
     .status(200)
-    .json(users.map(User.toResponse));
+    .json(boards);
 });
 
 router.route('/:id').get(async (req, res) => {
-  const id = await req.params.id;
-  const user = await usersService.getId(id);
+  const board = await boardsService.getId(req.params.id);
 
   res
     .set('Accept', 'application/json')
     .contentType('application/json')
     .status(200)
-    .json(User.toResponse(user));
+    .json(board);
 });
 
 router.route('/').post(async (req, res) => {
-  const newUser = await usersService.createUser(req.body);
+  const newBoard = await boardsService.createBoard(req.body);
 
   res
     .set('Accept', 'application/json')
     .contentType('application/json')
     .status(200)
-    .json(User.toResponse(newUser));
+    .json(newBoard);
 });
 
 router.route('/:id').put(async (req, res) => {
   const id = await req.params.id;
-  const updateUser = await usersService.updateUser(id, req.body);
+  const updateBoard = await boardsService.updateBoard(id, req.body);
 
   res
     .set('Accept', 'application/json')
     .contentType('application/json')
     .status(200)
-    .json(User.toResponse(updateUser));
+    .json(updateBoard);
 });
 
 router.route('/:id').delete(async (req, res) => {
   const id = await req.params.id;
-  const deleteUser = usersService.deleteUser(id);
+  const deleteBoard = boardsService.deleteBoard(id);
 
   res
     .set('Accept', 'application/json')
     .contentType('application/json')
     .status(200)
-    .json(User.toResponse(deleteUser));
+    .json(deleteBoard);
 });
 
 module.exports = router;

@@ -1,9 +1,17 @@
 const usersRepo = require('./user.memory.repository');
+const tasksRepo = require('./../tasks/task.memory.repository');
 
-const getAll = () => usersRepo.getAll();
-const getId = id => usersRepo.getId(id);
-const createUser = user => usersRepo.createUser(user);
-const updateUser = (id, update) => usersRepo.updateUser(id, update);
-const deleteUser = id => usersRepo.deleteUser(id);
+const getAll = async () => await usersRepo.getAll();
+const getById = async id => await usersRepo.getById(id);
+const createUser = async user => await usersRepo.createUser(user);
+const updateUser = async user => await usersRepo.updateUser(user);
+const deleteUser = async id => {
+  usersRepo.deleteUser(id);
+  const tasks = await tasksRepo.getAllByUserId(id);
+  tasks.forEach(async task => {
+    task.userId = null;
+    await tasksRepo.updateTask(task);
+  });
+};
 
-module.exports = { getAll, getId, createUser, updateUser, deleteUser };
+module.exports = { getAll, getById, createUser, updateUser, deleteUser };

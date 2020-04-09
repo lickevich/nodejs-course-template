@@ -3,54 +3,37 @@ const boardsService = require('./board.service');
 
 router.route('/').get(async (req, res) => {
   const boards = await boardsService.getAll();
-
-  res
-    .set('Accept', 'application/json')
-    .contentType('application/json')
-    .status(200)
-    .json(boards);
+  res.json(boards);
 });
 
 router.route('/:id').get(async (req, res) => {
-  const board = await boardsService.getId(req.params.id);
-
-  res
-    .set('Accept', 'application/json')
-    .contentType('application/json')
-    .status(200)
-    .json(board);
+  const id = req.params.id;
+  const board = await boardsService.getById(id);
+  if (board === undefined) {
+    res.status(404).json({ message: `Board with id ${id} is not found` });
+  } else {
+    res.json(board);
+  }
 });
 
 router.route('/').post(async (req, res) => {
-  const newBoard = await boardsService.createBoard(req.body);
-
-  res
-    .set('Accept', 'application/json')
-    .contentType('application/json')
-    .status(200)
-    .json(newBoard);
+  const board = req.body;
+  const newBoard = await boardsService.createBoard(board);
+  res.json(newBoard);
 });
 
 router.route('/:id').put(async (req, res) => {
-  const id = await req.params.id;
-  const updateBoard = await boardsService.updateBoard(id, req.body);
-
-  res
-    .set('Accept', 'application/json')
-    .contentType('application/json')
-    .status(200)
-    .json(updateBoard);
+  const id = req.params.id;
+  const board = req.body;
+  board.id = id;
+  await boardsService.updateBoard(board);
+  res.json(board);
 });
 
 router.route('/:id').delete(async (req, res) => {
-  const id = await req.params.id;
-  const deleteBoard = boardsService.deleteBoard(id);
-
-  res
-    .set('Accept', 'application/json')
-    .contentType('application/json')
-    .status(200)
-    .json(deleteBoard);
+  const id = req.params.id;
+  await boardsService.deleteBoard(id);
+  res.status(204).json({ message: `Board id: ${id} was deleted` });
 });
 
 module.exports = router;

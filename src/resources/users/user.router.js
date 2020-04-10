@@ -11,7 +11,7 @@ router.route('/:id').get(async (req, res) => {
   const id = req.params.id;
   const user = await usersService.getById(id);
   if (user === undefined) {
-    res.status(404).json({ message: `User with id ${id} is not found` });
+    res.status(404).json({ message: 'User is not found' });
   } else {
     res.json(User.toResponse(user));
   }
@@ -34,7 +34,7 @@ router.route('/:id').put(async (req, res) => {
 router.route('/:id').delete(async (req, res) => {
   const id = req.params.id;
   await usersService.deleteUser(id);
-  res.status(204).json({ message: `User id: ${id} was deleted` });
+  res.status(204).json({ message: 'User deleted' });
 });
 
 module.exports = router;

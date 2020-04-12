@@ -23,6 +23,7 @@ const createTask = async task => {
 const updateTask = async taskUpdate => {
   const index = tasks.findIndex(task => task.id === taskUpdate.id);
   tasks[index] = taskUpdate;
+  return index !== -1;
 };
 
 const deleteTask = async (id, boardId) => {
@@ -30,6 +31,7 @@ const deleteTask = async (id, boardId) => {
     task => task.id === id && task.boardId === boardId
   );
   tasks.splice(index, 1);
+  return index !== -1;
 };
 
 module.exports = {

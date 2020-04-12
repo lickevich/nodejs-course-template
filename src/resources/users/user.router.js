@@ -1,40 +1,73 @@
 const router = require('express').Router();
+const { NOT_FOUND, OK } = require('http-status-codes');
 const User = require('./user.model');
 const usersService = require('./user.service');
+const catchErrors = require('../../helpers/catch-errors');
+const { ErrorHandler } = require('../../helpers/error');
 
-router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
-  res.json(users.map(User.toResponse));
-});
+router.route('/').get(
+  catchErrors(async (req, res) => {
+    const users = await usersService.getAll();
+    if (!users) {
+      throw new ErrorHandler(NOT_FOUND, 'Users are not found');
+    } else {
+      res.status(OK).json(users.map(User.toResponse));
+    }
+  })
+);
 
-router.route('/:id').get(async (req, res) => {
-  const id = req.params.id;
-  const user = await usersService.getById(id);
-  if (user === undefined) {
-    res.status(404).json({ message: 'User is not found' });
-  } else {
-    res.json(User.toResponse(user));
-  }
-});
+router.route('/:id').get(
+  catchErrors(async (req, res) => {
+    const id = req.params.id;
+    const user = await usersService.getById(id);
+    if (!user) {
+      throw new ErrorHandler(NOT_FOUND, 'User is not found');
+    } else {
+      res.status(OK).json(User.toResponse(user));
+    }
+  })
+);
 
-router.route('/').post(async (req, res) => {
-  const user = req.body;
-  const newUser = await usersService.createUser(user);
-  res.json(User.toResponse(newUser));
-});
+router.route('/').post(
+  catchErrors(async (req, res) => {
+    const user = req.body;
+    const newUser = await usersService.createUser(user);
+    const { login, password } = user;
+    if (!login || !password) {
+      throw new ErrorHandler(
+        NOT_FOUND,
+        'Missing required login and password fields'
+      );
+    } else {
+      res.status(OK).json(User.toResponse(newUser));
+    }
+  })
+);
 
-router.route('/:id').put(async (req, res) => {
-  const id = req.params.id;
-  const user = req.body;
-  user.id = id;
-  await usersService.updateUser(user);
-  res.json(User.toResponse(user));
-});
+router.route('/:id').put(
+  catchErrors(async (req, res) => {
+    const id = req.params.id;
+    const update = req.body;
+    update.id = id;
+    const updatedUser = await usersService.updateUser(update);
+    if (!updatedUser) {
+      throw new ErrorHandler(NOT_FOUND, 'User is not found');
+    } else {
+      res.status(OK).json(User.toResponse(update));
+    }
+  })
+);
 
-router.route('/:id').delete(async (req, res) => {
-  const id = req.params.id;
-  await usersService.deleteUser(id);
-  res.status(204).json({ message: 'User deleted' });
-});
+router.route('/:id').delete(
+  catchErrors(async (req, res) => {
+    const id = req.params.id;
+    const deletedUser = await usersService.deleteUser(id);
+    if (!deletedUser) {
+      throw new ErrorHandler(NOT_FOUND, 'User is not found');
+    } else {
+      res.status(OK).json({ message: 'User is deleted' });
+    }
+  })
+);
 
 module.exports = router;

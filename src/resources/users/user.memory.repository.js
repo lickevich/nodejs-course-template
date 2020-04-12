@@ -19,11 +19,13 @@ const createUser = async user => {
 const updateUser = async userUpdate => {
   const index = users.findIndex(user => user.id === userUpdate.id);
   users[index] = userUpdate;
+  return index !== -1;
 };
 
 const deleteUser = async id => {
   const index = users.findIndex(user => user.id === id);
   users.splice(index, 1);
+  return index !== -1;
 };
 
 module.exports = { getAll, getById, createUser, updateUser, deleteUser };

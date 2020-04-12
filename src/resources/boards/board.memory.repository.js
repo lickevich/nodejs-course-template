@@ -19,11 +19,13 @@ const createBoard = async board => {
 const updateBoard = async boardUpdate => {
   const index = boards.findIndex(board => board.id === boardUpdate.id);
   boards[index] = boardUpdate;
+  return index !== -1;
 };
 
 const deleteBoard = async id => {
   const index = boards.findIndex(board => board.id === id);
   boards.splice(index, 1);
+  return index !== -1;
 };
 
 module.exports = { getAll, getById, createBoard, updateBoard, deleteBoard };

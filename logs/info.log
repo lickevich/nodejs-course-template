@@ -1,0 +1,918 @@
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"error","message":"   Caught exception: Error: listen EADDRINUSE: address already in use :::4000. Exception origin: uncaughtException"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /users/d1562d47-a15d-43d0-9f8d-c8b78369dcb8 {} {}"}
+{"level":"info","message":"    GET /boards/e6e9a936-f3ff-4118-8e11-650c9de74e90 {} {}"}
+{"level":"info","message":"    DELETE /users/d1562d47-a15d-43d0-9f8d-c8b78369dcb8 {} {}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/e5af72af-315e-4f9f-a348-d919c114f78c {} {}"}
+{"level":"info","message":"    DELETE /boards/b517b502-6b28-45fb-a6e2-e72afa05eb11 {} {}"}
+{"level":"info","message":"    DELETE /users/600a2e14-57ae-4a61-8c68-7c1de1e37840 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    PUT /boards/7acd7b52-2bbc-4edb-befe-962c16dac18e {} {\"id\":\"7acd7b52-2bbc-4edb-befe-962c16dac18e\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/043df29d-a8c4-4cd3-917f-a86b596d28d7 {} {}"}
+{"level":"info","message":"    PUT /users/6df53c3a-51a8-4b04-a11a-9d5097dd03e8 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"6df53c3a-51a8-4b04-a11a-9d5097dd03e8\"}"}
+{"level":"info","message":"    GET /boards/7acd7b52-2bbc-4edb-befe-962c16dac18e {} {}"}
+{"level":"info","message":"    POST /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /users/6df53c3a-51a8-4b04-a11a-9d5097dd03e8 {} {}"}
+{"level":"info","message":"    DELETE /boards/7acd7b52-2bbc-4edb-befe-962c16dac18e {} {}"}
+{"level":"info","message":"    PUT /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/de34c0db-4e1a-4bd2-9616-9df2b86a4ab6 {} {\"id\":\"de34c0db-4e1a-4bd2-9616-9df2b86a4ab6\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"d543ccf1-d0d7-4bfd-9ebe-29a2e0119716\",\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/6df53c3a-51a8-4b04-a11a-9d5097dd03e8 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/de34c0db-4e1a-4bd2-9616-9df2b86a4ab6 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/e6e9a936-f3ff-4118-8e11-650c9de74e90 {} {}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/e5af72af-315e-4f9f-a348-d919c114f78c {} {}"}
+{"level":"info","message":"    DELETE /users/e16ccc0a-7233-4952-8828-dad764167b25 {} {}"}
+{"level":"info","message":"    GET /boards/e6e9a936-f3ff-4118-8e11-650c9de74e90 {} {}"}
+{"level":"info","message":"    DELETE /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/e5af72af-315e-4f9f-a348-d919c114f78c {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716/tasks/e5af72af-315e-4f9f-a348-d919c114f78c {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/d543ccf1-d0d7-4bfd-9ebe-29a2e0119716 {} {}"}
+{"level":"info","message":"    POST /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"db344af6-e11e-4fa8-82b0-f95b249147cd\",\"boardId\":\"317cfcac-7571-48eb-ae23-645ff2ec0062\"}"}
+{"level":"info","message":"    POST /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"db344af6-e11e-4fa8-82b0-f95b249147cd\",\"boardId\":\"317cfcac-7571-48eb-ae23-645ff2ec0062\"}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/f1b0e6eb-87a9-4d36-bbd6-b9ff853f2951 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/6c69fa1d-6352-4ee3-bd49-7aa3cdccaef0 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/1c69a81f-3c44-4239-812e-ca4e7bfd1fdc {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/c91e7740-2832-4153-8a58-237930c65ed7 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/4b6e6e83-9b2a-47e4-b6ca-8d849fcf7744 {} {}"}
+{"level":"info","message":"    DELETE /users/db344af6-e11e-4fa8-82b0-f95b249147cd {} {}"}
+{"level":"info","message":"    DELETE /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5 {} {}"}
+{"level":"info","message":"    GET /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks/4508373b-6adc-41e9-8946-2dcf15d6c7e1 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/f1b0e6eb-87a9-4d36-bbd6-b9ff853f2951 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/6c69fa1d-6352-4ee3-bd49-7aa3cdccaef0 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/1c69a81f-3c44-4239-812e-ca4e7bfd1fdc {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/c91e7740-2832-4153-8a58-237930c65ed7 {} {}"}
+{"level":"info","message":"    GET /boards/e9fd496e-a34c-4d0a-b1c6-4b24184e7ff5/tasks/4b6e6e83-9b2a-47e4-b6ca-8d849fcf7744 {} {}"}
+{"level":"info","message":"    GET /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks/dd55d07f-956f-4b3e-98cd-11d3efc3a698 {} {}"}
+{"level":"info","message":"    DELETE /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks/4508373b-6adc-41e9-8946-2dcf15d6c7e1 {} {}"}
+{"level":"info","message":"    DELETE /boards/317cfcac-7571-48eb-ae23-645ff2ec0062/tasks/dd55d07f-956f-4b3e-98cd-11d3efc3a698 {} {}"}
+{"level":"info","message":"    DELETE /boards/317cfcac-7571-48eb-ae23-645ff2ec0062 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /users/3c628d69-0b33-4a4b-b0e8-536655c8475b {} {}"}
+{"level":"info","message":"    GET /boards/72adc6df-0e94-467b-ba2e-f4f1c69dc0f8 {} {}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks {} {}"}
+{"level":"info","message":"    DELETE /users/3c628d69-0b33-4a4b-b0e8-536655c8475b {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/655d8ad9-ab77-4860-9ec0-afcfdcfab896 {} {}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks {} {}"}
+{"level":"info","message":"    DELETE /users/d162140e-38a7-4253-919f-6c97d0b300bf {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/0ba93cc0-cb0b-42a2-87a3-f2f0e626f0f8 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    PUT /boards/70e0b764-4f09-458b-ae1c-f569b4f62241 {} {\"id\":\"70e0b764-4f09-458b-ae1c-f569b4f62241\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    PUT /users/55286616-5cf9-4431-a5e5-16582b9ee485 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"55286616-5cf9-4431-a5e5-16582b9ee485\"}"}
+{"level":"info","message":"    GET /boards/70e0b764-4f09-458b-ae1c-f569b4f62241 {} {}"}
+{"level":"info","message":"    DELETE /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/5da0d047-1d4b-4827-a7a8-b14b409b2117 {} {}"}
+{"level":"info","message":"    GET /users/55286616-5cf9-4431-a5e5-16582b9ee485 {} {}"}
+{"level":"info","message":"    DELETE /boards/70e0b764-4f09-458b-ae1c-f569b4f62241 {} {}"}
+{"level":"info","message":"    POST /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/55286616-5cf9-4431-a5e5-16582b9ee485 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    PUT /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/49f1561a-eb92-4ceb-b274-b4c7a79605e2 {} {\"id\":\"49f1561a-eb92-4ceb-b274-b4c7a79605e2\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"a393526d-d90a-4a2b-b737-bb26f8c0bc8a\",\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/72adc6df-0e94-467b-ba2e-f4f1c69dc0f8 {} {}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/49f1561a-eb92-4ceb-b274-b4c7a79605e2 {} {}"}
+{"level":"info","message":"    DELETE /users/bcc94b35-86d5-4229-9550-773e271407e7 {} {}"}
+{"level":"info","message":"    GET /boards/72adc6df-0e94-467b-ba2e-f4f1c69dc0f8 {} {}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/0ba93cc0-cb0b-42a2-87a3-f2f0e626f0f8 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/0ba93cc0-cb0b-42a2-87a3-f2f0e626f0f8 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"53a7df37-3ab1-49e6-be89-7b286892dd7c\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"53a7df37-3ab1-49e6-be89-7b286892dd7c\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"53a7df37-3ab1-49e6-be89-7b286892dd7c\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"53a7df37-3ab1-49e6-be89-7b286892dd7c\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"53a7df37-3ab1-49e6-be89-7b286892dd7c\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a/tasks/0ba93cc0-cb0b-42a2-87a3-f2f0e626f0f8 {} {}"}
+{"level":"info","message":"    POST /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"b82f3b86-580e-448c-a218-95d18b75389c\",\"boardId\":\"cc73ad0d-8901-4597-975c-1ae1782e40b0\"}"}
+{"level":"info","message":"    POST /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"b82f3b86-580e-448c-a218-95d18b75389c\",\"boardId\":\"cc73ad0d-8901-4597-975c-1ae1782e40b0\"}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/ac041363-6e21-4e31-90f4-e9b7fce4f853 {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/14ca235d-ddbf-4891-ba1c-25504faaac3b {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/3fedcda4-5f59-427c-b645-2fa7ac85f59f {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/b503fea0-6ca7-4423-948e-4feb0ba5c785 {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/dc28917d-6627-41b3-a4c6-437b0cd16a72 {} {}"}
+{"level":"info","message":"    DELETE /boards/a393526d-d90a-4a2b-b737-bb26f8c0bc8a {} {}"}
+{"level":"info","message":"    DELETE /users/b82f3b86-580e-448c-a218-95d18b75389c {} {}"}
+{"level":"info","message":"    DELETE /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c {} {}"}
+{"level":"info","message":"    GET /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks/831da1f9-3f59-4105-b35d-4a102bd72e4b {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/ac041363-6e21-4e31-90f4-e9b7fce4f853 {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/14ca235d-ddbf-4891-ba1c-25504faaac3b {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/3fedcda4-5f59-427c-b645-2fa7ac85f59f {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/b503fea0-6ca7-4423-948e-4feb0ba5c785 {} {}"}
+{"level":"info","message":"    GET /boards/53a7df37-3ab1-49e6-be89-7b286892dd7c/tasks/dc28917d-6627-41b3-a4c6-437b0cd16a72 {} {}"}
+{"level":"info","message":"    GET /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks/e300e66e-73dd-4737-bda4-a857db87fdb0 {} {}"}
+{"level":"info","message":"    DELETE /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks/831da1f9-3f59-4105-b35d-4a102bd72e4b {} {}"}
+{"level":"info","message":"    DELETE /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0/tasks/e300e66e-73dd-4737-bda4-a857db87fdb0 {} {}"}
+{"level":"info","message":"    DELETE /boards/cc73ad0d-8901-4597-975c-1ae1782e40b0 {} {}"}
+{"level":"info","message":"    GET / {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"title\":\"1234\"}"}
+{"level":"error","message":"   404 Missing required login and password fields"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    GET /users/7fb712f0-d5cb-49fe-a36f-26ef92ad5b66 {} {}"}
+{"level":"info","message":"    DELETE /users/7fb712f0-d5cb-49fe-a36f-26ef92ad5b66 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    GET /users/7fb712f0-d5cb-49fe-a36f-26ef92ad5b66 {} {}"}
+{"level":"error","message":"   404 User is not found"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/5c6f5ebb-38cf-4064-940b-4bfc4ce032e0 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/e8f9d286-4698-4ea1-873a-c7d0371251bd {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    PUT /users/b6e6114a-3860-4cdf-9283-076492ae9991 {} {\"login\":\"rrrrrrrrrrr\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    PUT /users/8b8efb39-a646-43e9-8753-5f0fa2a37622 {} {\"login\":\"rrrrrrrrrrr3\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/45e07b47-0189-4155-8b7a-cfb5a379c802 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/1214f6f7-2399-4a3d-bc7e-e74a01fc793b {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/79d7f3ca-7d50-4e9d-89d3-3611fce87b15 {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/6bcfd29f-b979-4ad0-ba6b-12c97cc94640 {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/6bcfd29f-b979-4ad0-ba6b-12c97cc946 {} {}"}
+{"level":"info","message":"    DELETE /users/6bcfd29f-b979-4ad0-ba6b-12c97cc946 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/00b133d7-e459-44b2-81ea-ba56f1145f21 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/50c582f6-c605-4c12-b676-c1c5d0250baa {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/455fc6d6-6b8f-4051-b19a-f152dfe2bc24 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/6d17f83d-9efd-467b-9107-8a829fad9b3c {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/766945a1-1fbf-4723-8c43-fcb9a2db5c76 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/812a3103-5e37-4532-9c55-ee20e0de8642 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/a8f2588a-764a-42da-bcf2-b91577b1e572 {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/06f05831-3737-4aa0-9c0d-dcfd627c660c {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/a941846e-f960-41a8-9651-669328789152 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/453f1bbd-73c1-4021-b79f-6abac4eb8d76 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/e775289b-19db-4f8d-ba4d-2d89a1a34477 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/0ee08a17-65f2-485b-a322-acefd3227ebd {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/6caf991f-21a3-4e8a-ade0-48f6c673e7f3 {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/69e77c46-3a51-43dd-91ac-62216bc212dd {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/403cc980-6fc2-4511-8753-44d58bf645cd {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/403cc980-6fc2-4511-8753-44d58bf645c {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/fe464c21-042e-4820-a433-15d02e4151de {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/243a0d4c-7652-438b-9731-be19f98795bf {} {}"}
+{"level":"info","message":"    DELETE /users/243a0d4c-7652-438b-9731-be19f9879 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    DELETE /users/30c70812-f97d-4edb-abf4-192b3b30ed64 {} {}"}
+{"level":"info","message":"    DELETE /users/30c70812-f97d-4edb-abf4-192b3b30ed6 {} {}"}
+{"level":"error","message":"   500 Server Error"}
+{"level":"info","message":"    DELETE /users/30c70812-f97d-4edb-abf4-192b3b30ed6 {} {}"}
+{"level":"error","message":"   404 User is not found"}
+{"level":"info","message":"    POST /users/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    PUT /users/042895f7-ff5e-473c-b165-dfbea088776c {} {\"login\":\"rrrrrrrrrrr3\"}"}
+{"level":"info","message":"    PUT /users/042895f7-ff5e-473c-b165-dfbea088776 {} {\"login\":\"rrrrrrrrrrr3\"}"}
+{"level":"error","message":"   404 User is not found"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/d373b997-0f37-41f9-a76d-5c69ed707631 {} {}"}
+{"level":"info","message":"    POST /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/d373b997-0f37-41f9-a76d-5c69ed707631 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /users/24195255-49b3-43f6-8cd2-eaee96d11a8d {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4 {} {}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/b07c05cd-1d4f-4c65-9e27-6afd7087aa06 {} {}"}
+{"level":"info","message":"    PUT /users/4a53e680-9c5e-44dd-8097-dc3f69240c14 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"4a53e680-9c5e-44dd-8097-dc3f69240c14\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /users/4a53e680-9c5e-44dd-8097-dc3f69240c14 {} {}"}
+{"level":"info","message":"    DELETE /boards/ccb98300-7dd5-4b7b-838a-e79db8ad47d3 {} {}"}
+{"level":"info","message":"    DELETE /users/4a53e680-9c5e-44dd-8097-dc3f69240c14 {} {}"}
+{"level":"info","message":"    DELETE /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/6c8f8e57-ee5c-4dd0-82cf-2033e715e241 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    PUT /boards/77a81524-9527-4d9b-a88f-8daa353babe5 {} {\"id\":\"77a81524-9527-4d9b-a88f-8daa353babe5\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /users/009fdb72-eefd-48f1-bdd9-3ba7f4bd3c5f {} {}"}
+{"level":"info","message":"    PUT /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/48b660d7-9b6b-450d-a0d4-f58efb972f93 {} {\"id\":\"48b660d7-9b6b-450d-a0d4-f58efb972f93\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"fb50b7c8-e458-4fd3-8ecc-70530376f5c4\",\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/77a81524-9527-4d9b-a88f-8daa353babe5 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/48b660d7-9b6b-450d-a0d4-f58efb972f93 {} {}"}
+{"level":"info","message":"    DELETE /boards/77a81524-9527-4d9b-a88f-8daa353babe5 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/b07c05cd-1d4f-4c65-9e27-6afd7087aa06 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"08ce1787-248d-427b-af38-1031b5db772b\",\"boardId\":\"d4a5893c-0431-4d76-aa15-c6ae74913e23\"}"}
+{"level":"info","message":"    POST /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"08ce1787-248d-427b-af38-1031b5db772b\",\"boardId\":\"d4a5893c-0431-4d76-aa15-c6ae74913e23\"}"}
+{"level":"info","message":"    DELETE /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/b07c05cd-1d4f-4c65-9e27-6afd7087aa06 {} {}"}
+{"level":"info","message":"    DELETE /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4 {} {}"}
+{"level":"info","message":"    DELETE /users/08ce1787-248d-427b-af38-1031b5db772b {} {}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4/tasks/b07c05cd-1d4f-4c65-9e27-6afd7087aa06 {} {}"}
+{"level":"info","message":"    GET /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4 {} {}"}
+{"level":"info","message":"    GET /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks/56bf6b9a-6652-4a40-a857-0c9b6b077aeb {} {}"}
+{"level":"info","message":"    DELETE /boards/fb50b7c8-e458-4fd3-8ecc-70530376f5c4 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks/6bacfff0-a682-4ea2-b972-0b6250167fd4 {} {}"}
+{"level":"info","message":"    POST /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"1df44e26-96bb-4a92-9677-170bbf19ad47\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"1df44e26-96bb-4a92-9677-170bbf19ad47\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"1df44e26-96bb-4a92-9677-170bbf19ad47\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"1df44e26-96bb-4a92-9677-170bbf19ad47\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"1df44e26-96bb-4a92-9677-170bbf19ad47\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks/6bacfff0-a682-4ea2-b972-0b6250167fd4 {} {}"}
+{"level":"info","message":"    DELETE /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23/tasks/56bf6b9a-6652-4a40-a857-0c9b6b077aeb {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/9fe6b3ab-ba07-4f4c-b75d-4bd833f198f6 {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/fe15953c-94ae-4c02-a4fc-e4488db83af9 {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/7f4b35de-608c-46fa-b780-22f3c7f995cd {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/8b68e582-1f81-4318-b484-af876ecbd1af {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/c7afdb82-b59c-41f3-864d-78c968f77242 {} {}"}
+{"level":"info","message":"    DELETE /boards/d4a5893c-0431-4d76-aa15-c6ae74913e23 {} {}"}
+{"level":"info","message":"    DELETE /boards/1df44e26-96bb-4a92-9677-170bbf19ad47 {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/9fe6b3ab-ba07-4f4c-b75d-4bd833f198f6 {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/fe15953c-94ae-4c02-a4fc-e4488db83af9 {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/7f4b35de-608c-46fa-b780-22f3c7f995cd {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/8b68e582-1f81-4318-b484-af876ecbd1af {} {}"}
+{"level":"info","message":"    GET /boards/1df44e26-96bb-4a92-9677-170bbf19ad47/tasks/c7afdb82-b59c-41f3-864d-78c968f77242 {} {}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/1c769904-4030-453f-873f-c772a265a095 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    DELETE /users/1c769904-4030-453f-873f-c772a265a095 {} {}"}
+{"level":"info","message":"    POST /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks {} {}"}
+{"level":"info","message":"    GET /boards/a567bdbf-4ca7-4dda-82d9-15a40c98c4c0 {} {}"}
+{"level":"info","message":"    DELETE /users/aea955dd-bf89-4e17-a6f2-e3f72c6dc151 {} {}"}
+{"level":"info","message":"    GET /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks/af527c08-f5b9-428f-987a-48da04377bee {} {}"}
+{"level":"info","message":"    PUT /users/e5952295-642d-48a8-9e9a-c2ce3d7c1e46 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"e5952295-642d-48a8-9e9a-c2ce3d7c1e46\"}"}
+{"level":"info","message":"    DELETE /boards/2680277d-11ee-4243-94ed-1bf9a342ef3c {} {}"}
+{"level":"info","message":"    GET /users/e5952295-642d-48a8-9e9a-c2ce3d7c1e46 {} {}"}
+{"level":"info","message":"    POST /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /users/e5952295-642d-48a8-9e9a-c2ce3d7c1e46 {} {}"}
+{"level":"info","message":"    PUT /boards/23d68d6c-16f5-4bd1-8711-d5adf4364925 {} {\"id\":\"23d68d6c-16f5-4bd1-8711-d5adf4364925\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/23d68d6c-16f5-4bd1-8711-d5adf4364925 {} {}"}
+{"level":"info","message":"    DELETE /users/3ea3a48d-4da8-4a1d-add9-eae79edbb3ad {} {}"}
+{"level":"info","message":"    DELETE /boards/23d68d6c-16f5-4bd1-8711-d5adf4364925 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/a567bdbf-4ca7-4dda-82d9-15a40c98c4c0 {} {}"}
+{"level":"info","message":"    PUT /boards/undefined/tasks/undefined {} {\"status\":\"error\",\"statusCode\":404,\"message\":\"Missing required title and order fields\",\"title\":\"Autotest updated task\"}"}
+{"level":"error","message":"   404 Task is not found"}
+{"level":"info","message":"    POST /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"45ecdad3-4166-4987-b909-35107353b18d\",\"boardId\":\"52eeffc1-5a37-4717-abb2-595b4694149e\"}"}
+{"level":"info","message":"    POST /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"45ecdad3-4166-4987-b909-35107353b18d\",\"boardId\":\"52eeffc1-5a37-4717-abb2-595b4694149e\"}"}
+{"level":"info","message":"    GET /boards/a567bdbf-4ca7-4dda-82d9-15a40c98c4c0 {} {}"}
+{"level":"info","message":"    GET /boards/00a3c537-511b-48e8-905b-25b85469264a/tasks/undefined {} {}"}
+{"level":"info","message":"    DELETE /users/45ecdad3-4166-4987-b909-35107353b18d {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/00a3c537-511b-48e8-905b-25b85469264a {} {}"}
+{"level":"info","message":"    GET /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks/1f078d33-02f7-4606-967d-3eaa8fe90277 {} {}"}
+{"level":"info","message":"    POST /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"30b8166e-5752-4f54-9f9d-79eaa90f582a\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"30b8166e-5752-4f54-9f9d-79eaa90f582a\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"30b8166e-5752-4f54-9f9d-79eaa90f582a\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"30b8166e-5752-4f54-9f9d-79eaa90f582a\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"30b8166e-5752-4f54-9f9d-79eaa90f582a\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks/7f66788e-4481-40e6-acfe-1c4e802a5680 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/67799418-7b89-43c5-b9a0-20f45428cd39 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/d5d612de-bb5a-4d69-aaaf-6dcd3bc6dd69 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/e4769af9-d8ac-4e5b-bc95-ed4f965bb2ea {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/af00c4f2-baaa-4b2d-bdaa-fb138122fd33 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/f9de9995-cb3f-4a4f-9661-cc2e57d2c5d6 {} {}"}
+{"level":"info","message":"    DELETE /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks/1f078d33-02f7-4606-967d-3eaa8fe90277 {} {}"}
+{"level":"info","message":"    DELETE /boards/52eeffc1-5a37-4717-abb2-595b4694149e/tasks/7f66788e-4481-40e6-acfe-1c4e802a5680 {} {}"}
+{"level":"info","message":"    DELETE /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a {} {}"}
+{"level":"info","message":"    DELETE /boards/52eeffc1-5a37-4717-abb2-595b4694149e {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/67799418-7b89-43c5-b9a0-20f45428cd39 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/d5d612de-bb5a-4d69-aaaf-6dcd3bc6dd69 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/e4769af9-d8ac-4e5b-bc95-ed4f965bb2ea {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/af00c4f2-baaa-4b2d-bdaa-fb138122fd33 {} {}"}
+{"level":"info","message":"    GET /boards/30b8166e-5752-4f54-9f9d-79eaa90f582a/tasks/f9de9995-cb3f-4a4f-9661-cc2e57d2c5d6 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks {} {}"}
+{"level":"info","message":"    GET /boards/155cf420-cf87-42f2-a48f-112fa3e9edaf {} {}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    GET /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks/3dd8dfbe-e030-4825-a0c2-1827e34b9c67 {} {}"}
+{"level":"info","message":"    DELETE /boards/83c81772-e37e-4d1f-9a70-81e9f53dd590 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/eb7386dc-3ef6-4c85-ba23-5d4b03ccb08a {} {}"}
+{"level":"info","message":"    PUT /boards/3f17cb76-4634-40d6-83a6-9e38b7432556 {} {\"id\":\"3f17cb76-4634-40d6-83a6-9e38b7432556\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"error","message":"   404 Missing required title and order fields"}
+{"level":"info","message":"    DELETE /users/eb7386dc-3ef6-4c85-ba23-5d4b03ccb08a {} {}"}
+{"level":"info","message":"    GET /boards/3f17cb76-4634-40d6-83a6-9e38b7432556 {} {}"}
+{"level":"info","message":"    PUT /boards/undefined/tasks/undefined {} {\"status\":\"error\",\"statusCode\":404,\"message\":\"Missing required title and order fields\",\"title\":\"Autotest updated task\"}"}
+{"level":"error","message":"   404 Task is not found"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/3f17cb76-4634-40d6-83a6-9e38b7432556 {} {}"}
+{"level":"info","message":"    GET /boards/548f310b-182f-4f10-9386-a892d89f1bfc/tasks/undefined {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    DELETE /users/d319769b-e323-4ead-ab7b-1088b71a3e3a {} {}"}
+{"level":"info","message":"    DELETE /boards/548f310b-182f-4f10-9386-a892d89f1bfc {} {}"}
+{"level":"info","message":"    DELETE /boards/155cf420-cf87-42f2-a48f-112fa3e9edaf {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/155cf420-cf87-42f2-a48f-112fa3e9edaf {} {}"}
+{"level":"info","message":"    PUT /users/45dc5e2f-e342-4ec5-9b8b-0d228066e122 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"45dc5e2f-e342-4ec5-9b8b-0d228066e122\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/45dc5e2f-e342-4ec5-9b8b-0d228066e122 {} {}"}
+{"level":"info","message":"    POST /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"ef1fd68a-320b-4989-8a22-9d23f04cba84\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"ef1fd68a-320b-4989-8a22-9d23f04cba84\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"ef1fd68a-320b-4989-8a22-9d23f04cba84\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"ef1fd68a-320b-4989-8a22-9d23f04cba84\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"ef1fd68a-320b-4989-8a22-9d23f04cba84\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/45dc5e2f-e342-4ec5-9b8b-0d228066e122 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/dac58226-a1ec-4610-a71d-cb98f4b31a1c {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/5c95d14a-2d2a-4011-b60d-ba501ae04ee2 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/be2e9c8e-0638-4410-9a9a-4b135a6201f6 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/9fb25c6c-79a2-4b4e-9bf7-d01bff686e32 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/d0039b31-3b77-4fec-b0d9-c991d4340f41 {} {}"}
+{"level":"info","message":"    DELETE /users/feba6063-25aa-4d19-ac3f-c30605b259b9 {} {}"}
+{"level":"info","message":"    DELETE /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/dac58226-a1ec-4610-a71d-cb98f4b31a1c {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/5c95d14a-2d2a-4011-b60d-ba501ae04ee2 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/d0039b31-3b77-4fec-b0d9-c991d4340f41 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/be2e9c8e-0638-4410-9a9a-4b135a6201f6 {} {}"}
+{"level":"info","message":"    GET /boards/ef1fd68a-320b-4989-8a22-9d23f04cba84/tasks/9fb25c6c-79a2-4b4e-9bf7-d01bff686e32 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"7c887ca7-a5fa-494c-9ac2-5a80acaedefc\",\"boardId\":\"6cc95a3e-f04e-41b3-9048-57c1e03c7016\"}"}
+{"level":"info","message":"    POST /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"7c887ca7-a5fa-494c-9ac2-5a80acaedefc\",\"boardId\":\"6cc95a3e-f04e-41b3-9048-57c1e03c7016\"}"}
+{"level":"info","message":"    DELETE /users/7c887ca7-a5fa-494c-9ac2-5a80acaedefc {} {}"}
+{"level":"info","message":"    GET /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks/e2d136ec-e91e-49bf-8111-c2c414fc2f93 {} {}"}
+{"level":"info","message":"    GET /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks/0e94857e-0d47-4026-b3d9-0e76518a439e {} {}"}
+{"level":"info","message":"    DELETE /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks/e2d136ec-e91e-49bf-8111-c2c414fc2f93 {} {}"}
+{"level":"info","message":"    DELETE /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016/tasks/0e94857e-0d47-4026-b3d9-0e76518a439e {} {}"}
+{"level":"info","message":"    DELETE /boards/6cc95a3e-f04e-41b3-9048-57c1e03c7016 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /users/4026a943-0c06-4900-8ce3-1e8c1f4378e9 {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20 {} {}"}
+{"level":"info","message":"    DELETE /users/4026a943-0c06-4900-8ce3-1e8c1f4378e9 {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/20ee426e-3236-4a10-b4d7-aca3d165e6ed {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/de8a38bc-1fe6-4c44-94a6-f8eeecd0aa0f {} {}"}
+{"level":"info","message":"    DELETE /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/875f58cc-3874-491c-82b1-c5203d24930d {} {}"}
+{"level":"info","message":"    DELETE /users/79a64e43-3d15-436e-8c26-b87c727bf9dc {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    PUT /boards/d191ab8f-807d-49e8-b275-fbeab808846c {} {\"id\":\"d191ab8f-807d-49e8-b275-fbeab808846c\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    PUT /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/ed12b034-bbe2-418b-9327-deeb2c0b21da {} {\"id\":\"ed12b034-bbe2-418b-9327-deeb2c0b21da\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"a62d3ab7-2a64-464a-abd0-1c2495e8fa20\",\"columnId\":null}"}
+{"level":"info","message":"    PUT /users/8ba23239-030a-4d4c-af2e-9ff1d7315059 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"8ba23239-030a-4d4c-af2e-9ff1d7315059\"}"}
+{"level":"info","message":"    GET /boards/d191ab8f-807d-49e8-b275-fbeab808846c {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/ed12b034-bbe2-418b-9327-deeb2c0b21da {} {}"}
+{"level":"info","message":"    GET /users/8ba23239-030a-4d4c-af2e-9ff1d7315059 {} {}"}
+{"level":"info","message":"    DELETE /boards/d191ab8f-807d-49e8-b275-fbeab808846c {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/20ee426e-3236-4a10-b4d7-aca3d165e6ed {} {}"}
+{"level":"info","message":"    DELETE /users/8ba23239-030a-4d4c-af2e-9ff1d7315059 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    DELETE /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/20ee426e-3236-4a10-b4d7-aca3d165e6ed {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20 {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20/tasks/20ee426e-3236-4a10-b4d7-aca3d165e6ed {} {}"}
+{"level":"info","message":"    DELETE /users/61ecd3c6-7583-440d-ad77-ccac1444fc50 {} {}"}
+{"level":"info","message":"    GET /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20 {} {}"}
+{"level":"info","message":"    DELETE /boards/a62d3ab7-2a64-464a-abd0-1c2495e8fa20 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"4374ace3-ecc8-4deb-8fb2-7cc42b544726\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"4374ace3-ecc8-4deb-8fb2-7cc42b544726\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"4374ace3-ecc8-4deb-8fb2-7cc42b544726\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"4374ace3-ecc8-4deb-8fb2-7cc42b544726\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"4374ace3-ecc8-4deb-8fb2-7cc42b544726\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"4159597f-631c-4a76-8c1d-f71a21960298\",\"boardId\":\"a7bd9a81-db7f-4973-adb7-c9f5ace8e40e\"}"}
+{"level":"info","message":"    POST /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"4159597f-631c-4a76-8c1d-f71a21960298\",\"boardId\":\"a7bd9a81-db7f-4973-adb7-c9f5ace8e40e\"}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/41338262-d648-436e-be26-279eadda3971 {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/23a7a83b-69ce-452d-87e2-4fbee07590af {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/64355e97-a3bf-4aac-b392-c00259b44fcd {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/f87dbffc-2102-497d-9fa7-e8f5b14962c3 {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/dcd1fcff-8af2-4503-9db9-4121910721c1 {} {}"}
+{"level":"info","message":"    DELETE /users/4159597f-631c-4a76-8c1d-f71a21960298 {} {}"}
+{"level":"info","message":"    DELETE /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726 {} {}"}
+{"level":"info","message":"    GET /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks/1259cdfc-f49f-497d-a7c4-308ee1b05370 {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/41338262-d648-436e-be26-279eadda3971 {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/23a7a83b-69ce-452d-87e2-4fbee07590af {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/64355e97-a3bf-4aac-b392-c00259b44fcd {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/f87dbffc-2102-497d-9fa7-e8f5b14962c3 {} {}"}
+{"level":"info","message":"    GET /boards/4374ace3-ecc8-4deb-8fb2-7cc42b544726/tasks/dcd1fcff-8af2-4503-9db9-4121910721c1 {} {}"}
+{"level":"info","message":"    GET /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks/35f027ce-f0c2-4fa2-8f7f-eb396352eabb {} {}"}
+{"level":"info","message":"    DELETE /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks/35f027ce-f0c2-4fa2-8f7f-eb396352eabb {} {}"}
+{"level":"info","message":"    DELETE /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e/tasks/1259cdfc-f49f-497d-a7c4-308ee1b05370 {} {}"}
+{"level":"info","message":"    DELETE /boards/a7bd9a81-db7f-4973-adb7-c9f5ace8e40e {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards/319118b1-f29e-4837-be42-b948d108693a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /users/2a25e545-c30e-4f93-ba6b-9761cd437022 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks {} {}"}
+{"level":"info","message":"    DELETE /users/2a25e545-c30e-4f93-ba6b-9761cd437022 {} {}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/3daa3676-4d1b-43be-b11b-ef696cd57a2e {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/319118b1-f29e-4837-be42-b948d108693a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/2837c86f-c343-4964-89fd-c44a6f9e95de {} {}"}
+{"level":"info","message":"    DELETE /users/48ba8ef8-8b61-467d-b8aa-fa964c5f0dd6 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/319118b1-f29e-4837-be42-b948d108693a/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a {} {}"}
+{"level":"info","message":"    PUT /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/d64bbc08-97e6-43c2-a873-5ff547d938f4 {} {\"id\":\"d64bbc08-97e6-43c2-a873-5ff547d938f4\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"319118b1-f29e-4837-be42-b948d108693a\",\"columnId\":null}"}
+{"level":"info","message":"    PUT /users/a90f6dcf-1dd9-48a4-a304-7d858cc1ab84 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"a90f6dcf-1dd9-48a4-a304-7d858cc1ab84\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/d64bbc08-97e6-43c2-a873-5ff547d938f4 {} {}"}
+{"level":"info","message":"    GET /users/a90f6dcf-1dd9-48a4-a304-7d858cc1ab84 {} {}"}
+{"level":"info","message":"    DELETE /boards/ff6f0fd2-43b0-4bda-874b-d054b32e3819 {} {}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/3daa3676-4d1b-43be-b11b-ef696cd57a2e {} {}"}
+{"level":"info","message":"    DELETE /users/a90f6dcf-1dd9-48a4-a304-7d858cc1ab84 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/3daa3676-4d1b-43be-b11b-ef696cd57a2e {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    PUT /boards/2354021d-d045-4eec-80a9-c962c3637e35 {} {\"id\":\"2354021d-d045-4eec-80a9-c962c3637e35\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/319118b1-f29e-4837-be42-b948d108693a/tasks/3daa3676-4d1b-43be-b11b-ef696cd57a2e {} {}"}
+{"level":"info","message":"    DELETE /users/d88e2130-9b1a-4a2b-88a0-f8fb51b64519 {} {}"}
+{"level":"info","message":"    GET /boards/2354021d-d045-4eec-80a9-c962c3637e35 {} {}"}
+{"level":"info","message":"    DELETE /boards/319118b1-f29e-4837-be42-b948d108693a {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/2354021d-d045-4eec-80a9-c962c3637e35 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"36d6a005-8c9e-4356-9b97-05f6154f3d32\",\"boardId\":\"4a7da82d-a926-4a94-a8ce-7051b3c00f03\"}"}
+{"level":"info","message":"    POST /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"36d6a005-8c9e-4356-9b97-05f6154f3d32\",\"boardId\":\"4a7da82d-a926-4a94-a8ce-7051b3c00f03\"}"}
+{"level":"info","message":"    DELETE /boards/101ec1cc-e899-480c-8aff-8fd80fcb9e42 {} {}"}
+{"level":"info","message":"    DELETE /users/36d6a005-8c9e-4356-9b97-05f6154f3d32 {} {}"}
+{"level":"info","message":"    GET /boards/101ec1cc-e899-480c-8aff-8fd80fcb9e42 {} {}"}
+{"level":"info","message":"    GET /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks/7be37714-413a-489f-92eb-46fcc29ee932 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks/7ccda4dc-1dac-4fad-801c-983e38cf256c {} {}"}
+{"level":"info","message":"    DELETE /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks/7be37714-413a-489f-92eb-46fcc29ee932 {} {}"}
+{"level":"info","message":"    DELETE /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03/tasks/7ccda4dc-1dac-4fad-801c-983e38cf256c {} {}"}
+{"level":"info","message":"    POST /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"a863d7ea-49c5-46e9-a766-2c308bd78c27\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"a863d7ea-49c5-46e9-a766-2c308bd78c27\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"a863d7ea-49c5-46e9-a766-2c308bd78c27\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"a863d7ea-49c5-46e9-a766-2c308bd78c27\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"a863d7ea-49c5-46e9-a766-2c308bd78c27\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/4a7da82d-a926-4a94-a8ce-7051b3c00f03 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/39649ef6-52cc-4d39-a037-ed765298074f {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/8b9b49f1-8c6f-4d81-90c6-9619149cd8e5 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/b4ea4c81-9082-41d0-a837-c504ede844e4 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/bcb011ed-b95f-48bb-b93d-2c2e8a04d307 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/a96b9d25-aa25-48c4-a8c7-6332c80a5326 {} {}"}
+{"level":"info","message":"    DELETE /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/39649ef6-52cc-4d39-a037-ed765298074f {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/8b9b49f1-8c6f-4d81-90c6-9619149cd8e5 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/b4ea4c81-9082-41d0-a837-c504ede844e4 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/bcb011ed-b95f-48bb-b93d-2c2e8a04d307 {} {}"}
+{"level":"info","message":"    GET /boards/a863d7ea-49c5-46e9-a766-2c308bd78c27/tasks/a96b9d25-aa25-48c4-a8c7-6332c80a5326 {} {}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /users/969368a8-e2b8-43c4-8c1f-07edeff74474 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/969368a8-e2b8-43c4-8c1f-07edeff74474 {} {}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/9367cab2-1ef8-4b61-bf01-4f8ad2d5e3b2 {} {}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks {} {}"}
+{"level":"info","message":"    DELETE /users/bf8a1e3e-3d2e-4060-8a58-b1d3bf4e5866 {} {}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/ac96ca22-8d5e-4bac-b57c-bcfffc67fad0 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/897145e4-192f-4da6-9849-0d7ed6802181 {} {}"}
+{"level":"info","message":"    PUT /users/d2a1366e-c6d9-4faf-a978-64ab82608a19 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"d2a1366e-c6d9-4faf-a978-64ab82608a19\"}"}
+{"level":"info","message":"    DELETE /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/6eda30bf-75da-4048-8eac-708c2f6be692 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/d2a1366e-c6d9-4faf-a978-64ab82608a19 {} {}"}
+{"level":"info","message":"    POST /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    PUT /boards/ef791924-911e-4a64-9926-04a7131e1523 {} {\"id\":\"ef791924-911e-4a64-9926-04a7131e1523\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /users/d2a1366e-c6d9-4faf-a978-64ab82608a19 {} {}"}
+{"level":"info","message":"    PUT /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/af952e3b-e92d-4bd4-93f8-3f4086168754 {} {\"id\":\"af952e3b-e92d-4bd4-93f8-3f4086168754\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f\",\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/ef791924-911e-4a64-9926-04a7131e1523 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/af952e3b-e92d-4bd4-93f8-3f4086168754 {} {}"}
+{"level":"info","message":"    DELETE /boards/ef791924-911e-4a64-9926-04a7131e1523 {} {}"}
+{"level":"info","message":"    DELETE /users/e1c0d5d7-908b-474c-8bfb-0f97c733d666 {} {}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/ac96ca22-8d5e-4bac-b57c-bcfffc67fad0 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/ac96ca22-8d5e-4bac-b57c-bcfffc67fad0 {} {}"}
+{"level":"info","message":"    DELETE /boards/9367cab2-1ef8-4b61-bf01-4f8ad2d5e3b2 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f/tasks/ac96ca22-8d5e-4bac-b57c-bcfffc67fad0 {} {}"}
+{"level":"info","message":"    GET /boards/9367cab2-1ef8-4b61-bf01-4f8ad2d5e3b2 {} {}"}
+{"level":"info","message":"    POST /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"9cd9e383-64ea-466d-a918-ff6b2815d207\",\"boardId\":\"2e3b518e-25db-48ce-b155-63f9e6275bd6\"}"}
+{"level":"info","message":"    POST /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"9cd9e383-64ea-466d-a918-ff6b2815d207\",\"boardId\":\"2e3b518e-25db-48ce-b155-63f9e6275bd6\"}"}
+{"level":"info","message":"    DELETE /boards/0b62bc94-56e6-4cfd-809e-6be8c2c1aa1f {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /users/9cd9e383-64ea-466d-a918-ff6b2815d207 {} {}"}
+{"level":"info","message":"    POST /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"d8ca3b79-68df-4535-8cc4-784de489e3d2\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"d8ca3b79-68df-4535-8cc4-784de489e3d2\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks/ec152818-aa07-4bac-93d0-1920feb16196 {} {}"}
+{"level":"info","message":"    POST /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"d8ca3b79-68df-4535-8cc4-784de489e3d2\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"d8ca3b79-68df-4535-8cc4-784de489e3d2\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"d8ca3b79-68df-4535-8cc4-784de489e3d2\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks/3e6afe1d-00b0-4924-8ce8-0ea23a658809 {} {}"}
+{"level":"info","message":"    DELETE /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks/ec152818-aa07-4bac-93d0-1920feb16196 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/c64c061a-2de1-4695-93cc-4106af496fd7 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/167919f6-2ecd-489d-bc91-ca853b9e5144 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/2cc516cb-a297-41d3-bd5d-24f0addbf0c0 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/0e51d1ae-4495-4b11-89b5-0ad4336e893f {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/5eaf5240-cdb0-4599-981a-fb182b0ea2a8 {} {}"}
+{"level":"info","message":"    DELETE /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6/tasks/3e6afe1d-00b0-4924-8ce8-0ea23a658809 {} {}"}
+{"level":"info","message":"    DELETE /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2 {} {}"}
+{"level":"info","message":"    DELETE /boards/2e3b518e-25db-48ce-b155-63f9e6275bd6 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/c64c061a-2de1-4695-93cc-4106af496fd7 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/167919f6-2ecd-489d-bc91-ca853b9e5144 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/0e51d1ae-4495-4b11-89b5-0ad4336e893f {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/5eaf5240-cdb0-4599-981a-fb182b0ea2a8 {} {}"}
+{"level":"info","message":"    GET /boards/d8ca3b79-68df-4535-8cc4-784de489e3d2/tasks/2cc516cb-a297-41d3-bd5d-24f0addbf0c0 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks {} {}"}
+{"level":"info","message":"    GET /boards/a4257c6f-3fce-45f6-9496-32462e9f866f {} {}"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/741a63db-cdd4-4997-b71c-ea78cbc4e8ca {} {}"}
+{"level":"info","message":"    DELETE /boards/7783b33a-8b28-4b8f-86c5-d4bac9f2233d {} {}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    POST /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/5f725ffc-a578-4e2a-a049-047d3b162cb6 {} {}"}
+{"level":"info","message":"    PUT /boards/90d7d5d7-f7ac-44fd-bb9c-b5cd8161e2de {} {\"id\":\"90d7d5d7-f7ac-44fd-bb9c-b5cd8161e2de\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users/8be58d70-2899-4a90-8944-132832e478c5 {} {}"}
+{"level":"info","message":"    POST /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/90d7d5d7-f7ac-44fd-bb9c-b5cd8161e2de {} {}"}
+{"level":"info","message":"    DELETE /users/8be58d70-2899-4a90-8944-132832e478c5 {} {}"}
+{"level":"info","message":"    PUT /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/6efa3378-b16d-4696-ab3f-d46c47621f70 {} {\"id\":\"6efa3378-b16d-4696-ab3f-d46c47621f70\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"a4594442-6749-4dbb-bde2-10bb913c81c8\",\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/90d7d5d7-f7ac-44fd-bb9c-b5cd8161e2de {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/6efa3378-b16d-4696-ab3f-d46c47621f70 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/741a63db-cdd4-4997-b71c-ea78cbc4e8ca {} {}"}
+{"level":"info","message":"    DELETE /users/c1ed2812-2f8d-4121-b442-1bf044013bae {} {}"}
+{"level":"info","message":"    DELETE /boards/a4257c6f-3fce-45f6-9496-32462e9f866f {} {}"}
+{"level":"info","message":"    DELETE /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/741a63db-cdd4-4997-b71c-ea78cbc4e8ca {} {}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards/a4594442-6749-4dbb-bde2-10bb913c81c8/tasks/741a63db-cdd4-4997-b71c-ea78cbc4e8ca {} {}"}
+{"level":"info","message":"    PUT /users/fcde8b1a-ed7d-45d1-9882-3014cceb76e5 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"fcde8b1a-ed7d-45d1-9882-3014cceb76e5\"}"}
+{"level":"info","message":"    DELETE /boards/a4594442-6749-4dbb-bde2-10bb913c81c8 {} {}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    GET /users/fcde8b1a-ed7d-45d1-9882-3014cceb76e5 {} {}"}
+{"level":"info","message":"    POST /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"03c02d1a-c158-47fe-afdf-f4da949cdc36\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"03c02d1a-c158-47fe-afdf-f4da949cdc36\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"03c02d1a-c158-47fe-afdf-f4da949cdc36\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"03c02d1a-c158-47fe-afdf-f4da949cdc36\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"03c02d1a-c158-47fe-afdf-f4da949cdc36\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/fcde8b1a-ed7d-45d1-9882-3014cceb76e5 {} {}"}
+{"level":"info","message":"    GET /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks/b64b0b9b-ced7-4833-92cf-4e2222b8a39b {} {}"}
+{"level":"info","message":"    GET /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks/bfc71b50-6ed6-4154-817c-141898abad98 {} {}"}
+{"level":"info","message":"    GET /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks/a93a3168-b2a6-4df8-b84c-656d610e9bd2 {} {}"}
+{"level":"info","message":"    GET /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks/43a26ffb-25f8-4a6d-a8ae-1466dfba02bb {} {}"}
+{"level":"info","message":"    GET /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36/tasks/285060c6-4ada-4e14-95e8-9d6c32fc071e {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/03c02d1a-c158-47fe-afdf-f4da949cdc36 {} {}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    DELETE /users/958fb796-eb1d-4643-b124-1f589029d3ed {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"6c64a9f7-f695-4ab7-b5e3-6f87fd99f263\",\"boardId\":\"7fd23bb3-a332-4c84-adf7-6979ccbb26f0\"}"}
+{"level":"info","message":"    POST /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"6c64a9f7-f695-4ab7-b5e3-6f87fd99f263\",\"boardId\":\"7fd23bb3-a332-4c84-adf7-6979ccbb26f0\"}"}
+{"level":"info","message":"    DELETE /users/6c64a9f7-f695-4ab7-b5e3-6f87fd99f263 {} {}"}
+{"level":"info","message":"    GET /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks/6cb3ecef-86bc-4343-ab2a-701335ce2200 {} {}"}
+{"level":"info","message":"    GET /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks/a8b15041-d558-47a1-add8-429c3961f646 {} {}"}
+{"level":"info","message":"    DELETE /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks/6cb3ecef-86bc-4343-ab2a-701335ce2200 {} {}"}
+{"level":"info","message":"    DELETE /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0/tasks/a8b15041-d558-47a1-add8-429c3961f646 {} {}"}
+{"level":"info","message":"    DELETE /boards/7fd23bb3-a332-4c84-adf7-6979ccbb26f0 {} {}"}
+{"level":"error","message":"   undefined NO_CONTENT is not defined"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /users/5582bc64-377f-4066-b43c-e05599f7af83 {} {}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks {} {}"}
+{"level":"info","message":"    DELETE /users/5582bc64-377f-4066-b43c-e05599f7af83 {} {}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/ef034ad6-f4fc-416c-b399-e7f98329e27d {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/0d2540bf-315c-43e5-a731-18873161b8c7 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    DELETE /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/418b43f8-8dae-4d06-af1a-772f565ed25b {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    PUT /users/a7af0cf3-264b-468e-a301-4e3d1ede718c {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"a7af0cf3-264b-468e-a301-4e3d1ede718c\"}"}
+{"level":"info","message":"    PUT /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/841f2976-9a0a-4a64-a076-8d4693a044e5 {} {\"id\":\"841f2976-9a0a-4a64-a076-8d4693a044e5\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"39e5cd28-783e-427b-bb60-7aae8c24fc8b\",\"columnId\":null}"}
+{"level":"info","message":"    GET /users/a7af0cf3-264b-468e-a301-4e3d1ede718c {} {}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/841f2976-9a0a-4a64-a076-8d4693a044e5 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    DELETE /users/a7af0cf3-264b-468e-a301-4e3d1ede718c {} {}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/ef034ad6-f4fc-416c-b399-e7f98329e27d {} {}"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/ef034ad6-f4fc-416c-b399-e7f98329e27d {} {}"}
+{"level":"info","message":"    DELETE /users/80926ffd-6be0-45f4-a4db-47380919b7ed {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    GET /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b/tasks/ef034ad6-f4fc-416c-b399-e7f98329e27d {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/622090f5-af8e-4886-a63a-3cef93086066 {} {}"}
+{"level":"info","message":"    DELETE /boards/39e5cd28-783e-427b-bb60-7aae8c24fc8b {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"21181c8b-e422-4d02-bdc1-6ba98919ae19\",\"boardId\":\"bea17e64-0ac0-4407-976a-f8c4dee40514\"}"}
+{"level":"info","message":"    POST /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"21181c8b-e422-4d02-bdc1-6ba98919ae19\",\"boardId\":\"bea17e64-0ac0-4407-976a-f8c4dee40514\"}"}
+{"level":"info","message":"    PUT /boards/2cbac2a1-f3d0-4049-bedf-cfbf0777efba {} {\"id\":\"2cbac2a1-f3d0-4049-bedf-cfbf0777efba\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /users/21181c8b-e422-4d02-bdc1-6ba98919ae19 {} {}"}
+{"level":"info","message":"    GET /boards/2cbac2a1-f3d0-4049-bedf-cfbf0777efba {} {}"}
+{"level":"info","message":"    GET /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks/b41b5c5b-441b-489a-9912-584ba273466f {} {}"}
+{"level":"info","message":"    DELETE /boards/2cbac2a1-f3d0-4049-bedf-cfbf0777efba {} {}"}
+{"level":"info","message":"    GET /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks/f7346b72-eb3a-4837-8215-05d7317bf9e6 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    DELETE /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks/b41b5c5b-441b-489a-9912-584ba273466f {} {}"}
+{"level":"info","message":"    DELETE /boards/bea17e64-0ac0-4407-976a-f8c4dee40514/tasks/f7346b72-eb3a-4837-8215-05d7317bf9e6 {} {}"}
+{"level":"info","message":"    DELETE /boards/2b7354d6-39ef-4d24-9a8b-c8d7ea21a4e8 {} {}"}
+{"level":"info","message":"    DELETE /boards/bea17e64-0ac0-4407-976a-f8c4dee40514 {} {}"}
+{"level":"info","message":"    GET /boards/2b7354d6-39ef-4d24-9a8b-c8d7ea21a4e8 {} {}"}
+{"level":"error","message":"   404 Board is not found"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"error","message":"   400 Bad Request"}
+{"level":"info","message":"    POST /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"e051d153-aa57-469b-a25b-b0f8f461be1f\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"e051d153-aa57-469b-a25b-b0f8f461be1f\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"e051d153-aa57-469b-a25b-b0f8f461be1f\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"e051d153-aa57-469b-a25b-b0f8f461be1f\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"e051d153-aa57-469b-a25b-b0f8f461be1f\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/d36a85f9-0c8e-4182-b82d-aae3145ea048 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/a6e9188e-acd8-4f16-b1f0-c6bf693cbeb2 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/2d6523b1-0c30-449b-87e6-c1a7b199385c {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/5e838d9d-292c-4932-ba3a-474c6bd061f1 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/4836f286-fbca-44ee-815b-0a14d0e656a2 {} {}"}
+{"level":"info","message":"    DELETE /boards/e051d153-aa57-469b-a25b-b0f8f461be1f {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/d36a85f9-0c8e-4182-b82d-aae3145ea048 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/a6e9188e-acd8-4f16-b1f0-c6bf693cbeb2 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/2d6523b1-0c30-449b-87e6-c1a7b199385c {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/5e838d9d-292c-4932-ba3a-474c6bd061f1 {} {}"}
+{"level":"info","message":"    GET /boards/e051d153-aa57-469b-a25b-b0f8f461be1f/tasks/4836f286-fbca-44ee-815b-0a14d0e656a2 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /users {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    POST /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks {} {}"}
+{"level":"info","message":"    GET /users/91dc704c-6029-459f-a3da-fb823e5923a4 {} {}"}
+{"level":"info","message":"    GET /boards/8b60e376-352c-4bfc-9864-77290fc12bdc {} {}"}
+{"level":"info","message":"    DELETE /users/91dc704c-6029-459f-a3da-fb823e5923a4 {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/f8105304-9ce1-4250-bf1d-1d711a4549a4 {} {}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/674022c3-57d4-48e9-9926-b4167d6ebc2c {} {}"}
+{"level":"info","message":"    DELETE /users/aecb010e-16a7-4e00-9516-89d56137e2ba {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    PUT /boards/c358d569-d3e8-424f-9b0c-12dc3b8f67ab {} {\"id\":\"c358d569-d3e8-424f-9b0c-12dc3b8f67ab\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    DELETE /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/d97838ce-0a63-484e-b63c-327f7fe68af4 {} {}"}
+{"level":"info","message":"    PUT /users/ed0a7c08-720a-404f-8da3-afc6e0ddb369 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"ed0a7c08-720a-404f-8da3-afc6e0ddb369\"}"}
+{"level":"info","message":"    GET /boards/c358d569-d3e8-424f-9b0c-12dc3b8f67ab {} {}"}
+{"level":"info","message":"    POST /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}"}
+{"level":"info","message":"    GET /users/ed0a7c08-720a-404f-8da3-afc6e0ddb369 {} {}"}
+{"level":"info","message":"    DELETE /boards/c358d569-d3e8-424f-9b0c-12dc3b8f67ab {} {}"}
+{"level":"info","message":"    PUT /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/1c207b2c-b855-4ecd-adf1-6c124560ba68 {} {\"id\":\"1c207b2c-b855-4ecd-adf1-6c124560ba68\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"c330fe21-28b7-4fd1-b715-e11a47cadf8b\",\"columnId\":null}"}
+{"level":"info","message":"    DELETE /users/ed0a7c08-720a-404f-8da3-afc6e0ddb369 {} {}"}
+{"level":"info","message":"    GET /boards {} {}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/1c207b2c-b855-4ecd-adf1-6c124560ba68 {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    DELETE /boards/8b60e376-352c-4bfc-9864-77290fc12bdc {} {}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/674022c3-57d4-48e9-9926-b4167d6ebc2c {} {}"}
+{"level":"info","message":"    DELETE /users/e9dd5f98-9b5c-4a67-a2d7-f37698c576a6 {} {}"}
+{"level":"info","message":"    GET /boards/8b60e376-352c-4bfc-9864-77290fc12bdc {} {}"}
+{"level":"error","message":"   404 Board is not found"}
+{"level":"info","message":"    DELETE /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/674022c3-57d4-48e9-9926-b4167d6ebc2c {} {}"}
+{"level":"info","message":"    POST /users {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    GET /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b/tasks/674022c3-57d4-48e9-9926-b4167d6ebc2c {} {}"}
+{"level":"info","message":"    POST /boards {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}"}
+{"level":"info","message":"    POST /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"13804a18-aa47-4671-8283-cdccf3581696\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"13804a18-aa47-4671-8283-cdccf3581696\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"13804a18-aa47-4671-8283-cdccf3581696\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"13804a18-aa47-4671-8283-cdccf3581696\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    POST /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"13804a18-aa47-4671-8283-cdccf3581696\",\"userId\":null,\"columnId\":null}"}
+{"level":"info","message":"    DELETE /boards/c330fe21-28b7-4fd1-b715-e11a47cadf8b {} {}"}
+{"level":"info","message":"    POST /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"d77cc4bb-05ba-4b02-945d-4dda74487b1c\",\"boardId\":\"7413a056-ca39-43ce-8fe0-db8eddbc47c2\"}"}
+{"level":"info","message":"    POST /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"d77cc4bb-05ba-4b02-945d-4dda74487b1c\",\"boardId\":\"7413a056-ca39-43ce-8fe0-db8eddbc47c2\"}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/7af49cb9-5495-476c-ab84-4ed290e9a838 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/0c6775be-ab0c-4072-af1c-011f5a05f0e4 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/ecb69f5b-8942-4857-86d5-96a2b8557132 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/16c3b0d3-b7cc-48be-9a7f-5ccc3f773159 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/87cf4cee-d508-43a8-85d7-bdd371579922 {} {}"}
+{"level":"info","message":"    DELETE /users/d77cc4bb-05ba-4b02-945d-4dda74487b1c {} {}"}
+{"level":"info","message":"    DELETE /boards/13804a18-aa47-4671-8283-cdccf3581696 {} {}"}
+{"level":"info","message":"    GET /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks/d63d90f1-6cbb-4c37-82b6-dff219feaf59 {} {}"}
+{"level":"info","message":"    GET /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks/2f76b67b-9d26-47f0-9a7a-d129b3352880 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/ecb69f5b-8942-4857-86d5-96a2b8557132 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/16c3b0d3-b7cc-48be-9a7f-5ccc3f773159 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/7af49cb9-5495-476c-ab84-4ed290e9a838 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/0c6775be-ab0c-4072-af1c-011f5a05f0e4 {} {}"}
+{"level":"info","message":"    GET /boards/13804a18-aa47-4671-8283-cdccf3581696/tasks/87cf4cee-d508-43a8-85d7-bdd371579922 {} {}"}
+{"level":"info","message":"    DELETE /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks/d63d90f1-6cbb-4c37-82b6-dff219feaf59 {} {}"}
+{"level":"info","message":"    DELETE /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2/tasks/2f76b67b-9d26-47f0-9a7a-d129b3352880 {} {}"}
+{"level":"info","message":"    DELETE /boards/7413a056-ca39-43ce-8fe0-db8eddbc47c2 {} {}"}
+{"level":"info","message":"    POST /boards/ {} {\"login\":\"qwer\",\"password\":\"asdf\"}"}
+{"level":"info","message":"    POST /boards/ {} {}"}
+{"level":"info","message":"    POST /boards/ {} {}"}
+{"level":"info","message":"    GET /users/ {} {}"}
+{"level":"info","message":"    GET /boards/ {} {}"}
+{"level":"info","message":"    DELETE /boards/8835e783-2b05-4282-ad52-cf429d42538d {} {}"}

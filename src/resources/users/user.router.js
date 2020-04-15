@@ -31,7 +31,6 @@ router.route('/:id').get(
 router.route('/').post(
   catchErrors(async (req, res) => {
     const user = req.body;
-    const newUser = await usersService.createUser(user);
     const { login, password } = user;
     if (!login || !password) {
       throw new ErrorHandler(
@@ -39,6 +38,7 @@ router.route('/').post(
         'Missing required login and password fields'
       );
     } else {
+      const newUser = await usersService.createUser(user);
       res.status(OK).json(User.toResponse(newUser));
     }
   })

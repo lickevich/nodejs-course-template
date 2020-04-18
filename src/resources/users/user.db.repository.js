@@ -21,4 +21,10 @@ const deleteUser = async id => {
   return result === 1;
 };
 
-module.exports = { getAll, getById, createUser, updateUser, deleteUser };
+module.exports = {
+  getAll,
+  getById,
+  createUser,
+  updateUser,
+  deleteUser
+};

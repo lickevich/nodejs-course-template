@@ -6,8 +6,8 @@ const {
   getStatusText
 } = require('http-status-codes');
 const tasksService = require('./task.service');
-const catchErrors = require('../../helpers/catch-errors');
-const { ErrorHandler } = require('../../helpers/error');
+const catchErrors = require('../../utils/catch-errors');
+const { ErrorHandler } = require('../../utils/error');
 
 router.route('/:boardId/tasks/').get(
   catchErrors(async (req, res) => {

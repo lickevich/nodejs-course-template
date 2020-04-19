@@ -1,11 +1,26 @@
+const { Schema, model } = require('mongoose');
 const uuid = require('uuid');
 
-class Board {
-  constructor({ id = uuid(), title = 'Board', columns = [] } = {}) {
-    this.id = id;
-    this.title = title;
-    this.columns = columns;
-  }
-}
+const Board = new Schema(
+  {
+    _id: {
+      type: String,
+      default: uuid,
+      require
+    },
+    title: String,
+    columns: {
+      type: Array,
+      default: []
+    }
+  },
+  { versionKey: false }
+);
 
-module.exports = Board;
+Board.statics.toResponse = board => {
+  const { id, title, columns } = board;
+
+  return { id, title, columns };
+};
+
+module.exports = model('Board', Board);

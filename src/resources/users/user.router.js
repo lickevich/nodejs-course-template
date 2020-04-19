@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { NOT_FOUND, OK } = require('http-status-codes');
 const User = require('./user.model');
 const usersService = require('./user.service');
-const catchErrors = require('../../helpers/catch-errors');
-const { ErrorHandler } = require('../../helpers/error');
+const catchErrors = require('../../utils/catch-errors');
+const { ErrorHandler } = require('../../utils/error');
 
 router.route('/').get(
   catchErrors(async (req, res) => {
@@ -31,7 +31,6 @@ router.route('/:id').get(
 router.route('/').post(
   catchErrors(async (req, res) => {
     const user = req.body;
-    const newUser = await usersService.createUser(user);
     const { login, password } = user;
     if (!login || !password) {
       throw new ErrorHandler(
@@ -39,6 +38,7 @@ router.route('/').post(
         'Missing required login and password fields'
       );
     } else {
+      const newUser = await usersService.createUser(user);
       res.status(OK).json(User.toResponse(newUser));
     }
   })
@@ -65,7 +65,7 @@ router.route('/:id').delete(
     if (!deletedUser) {
       throw new ErrorHandler(NOT_FOUND, 'User is not found');
     } else {
-      res.status(OK).json({ message: 'User is deleted' });
+      res.status(OK).send('User is deleted');
     }
   })
 );

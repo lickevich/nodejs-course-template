@@ -6,8 +6,9 @@ const {
   getStatusText
 } = require('http-status-codes');
 const boardsService = require('./board.service');
-const catchErrors = require('../../helpers/catch-errors');
-const { ErrorHandler } = require('../../helpers/error');
+const catchErrors = require('../../utils/catch-errors');
+const { ErrorHandler } = require('../../utils/error');
+const Board = require('./board.model');
 
 router.route('/').get(
   catchErrors(async (req, res) => {
@@ -15,7 +16,7 @@ router.route('/').get(
     if (!boards) {
       throw new ErrorHandler(NOT_FOUND, 'Boards are not found');
     } else {
-      res.status(OK).json(boards);
+      res.status(OK).json(boards.map(Board.toResponse));
     }
   })
 );
@@ -27,7 +28,7 @@ router.route('/:id').get(
     if (!board) {
       throw new ErrorHandler(NOT_FOUND, 'Board is not found');
     } else {
-      res.status(OK).json(board);
+      res.status(OK).json(Board.toResponse(board));
     }
   })
 );
@@ -39,7 +40,7 @@ router.route('/').post(
     if (!newBoard) {
       throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
     } else {
-      res.status(OK).json(newBoard);
+      res.status(OK).json(Board.toResponse(newBoard));
     }
   })
 );
@@ -53,7 +54,7 @@ router.route('/:id').put(
     if (!updatedBoard) {
       throw new ErrorHandler(NOT_FOUND, 'Board is not found');
     } else {
-      res.status(OK).json(update);
+      res.status(OK).json(Board.toResponse(update));
     }
   })
 );
@@ -65,7 +66,7 @@ router.route('/:id').delete(
     if (!deletedBoard) {
       throw new ErrorHandler(NOT_FOUND, 'Board is not found');
     } else {
-      res.status(OK).json({ message: 'Board is deleted' });
+      res.status(OK).send('Board is deleted');
     }
   })
 );

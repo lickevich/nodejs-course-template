@@ -14,15 +14,6 @@ const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
 
-app.use(async (req, res, next) => {
-  const { method, url, params, body } = req;
-  logger.log(
-    'info',
-    `${method} ${url} ${JSON.stringify(params)} ${JSON.stringify(body)}`
-  );
-  next();
-});
-
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use('/', (req, res, next) => {
@@ -30,6 +21,15 @@ app.use('/', (req, res, next) => {
     res.send('Service is running!');
     return;
   }
+  next();
+});
+
+app.use((req, res, next) => {
+  const { method, url, params, body } = req;
+  logger.log(
+    'info',
+    `${method} ${url} ${JSON.stringify(params)} ${JSON.stringify(body)}`
+  );
   next();
 });
 

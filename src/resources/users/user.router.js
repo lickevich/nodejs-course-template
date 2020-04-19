@@ -65,7 +65,7 @@ router.route('/:id').delete(
     if (!deletedUser) {
       throw new ErrorHandler(NOT_FOUND, 'User is not found');
     } else {
-      res.status(OK).json({ message: 'User is deleted' });
+      res.status(OK).send('User is deleted');
     }
   })
 );

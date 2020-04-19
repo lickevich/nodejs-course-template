@@ -8,6 +8,7 @@ const {
 const tasksService = require('./task.service');
 const catchErrors = require('../../utils/catch-errors');
 const { ErrorHandler } = require('../../utils/error');
+const Task = require('./task.model');
 
 router.route('/:boardId/tasks/').get(
   catchErrors(async (req, res) => {
@@ -16,7 +17,7 @@ router.route('/:boardId/tasks/').get(
     if (!tasks) {
       throw new ErrorHandler(NOT_FOUND, getStatusText(NOT_FOUND));
     } else {
-      res.status(OK).json(tasks);
+      res.status(OK).json(tasks.map(Task.toResponse));
     }
   })
 );
@@ -27,11 +28,9 @@ router.route('/:boardId/tasks/:id').get(
     const boardId = req.params.boardId;
     const task = await tasksService.getById(id, boardId);
     if (!task) {
-      res.status(NOT_FOUND).json({
-        message: 'Task is not found'
-      });
+      res.status(NOT_FOUND).send('Task is not found');
     } else {
-      res.status(OK).json(task);
+      res.status(OK).json(Task.toResponse(task));
     }
   })
 );
@@ -45,7 +44,7 @@ router.route('/:boardId/tasks/').post(
     if (!newTask) {
       throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
     } else {
-      res.status(OK).json(newTask);
+      res.status(OK).json(Task.toResponse(newTask));
     }
   })
 );
@@ -61,7 +60,7 @@ router.route('/:boardId/tasks/:id').put(
     if (!updatedTask) {
       throw new ErrorHandler(NOT_FOUND, 'Task is not found');
     } else {
-      res.status(OK).json(update);
+      res.status(OK).json(Task.toResponse(update));
     }
   })
 );
@@ -74,7 +73,7 @@ router.route('/:boardId/tasks/:id').delete(
     if (!deletedTask) {
       throw new ErrorHandler(NOT_FOUND, 'Task is not found');
     } else {
-      res.status(OK).json({ message: 'Task is deleted' });
+      res.status(OK).send('Task is deleted');
     }
   })
 );

@@ -8,8 +8,8 @@ const getAllByUserId = async userId => {
   return Task.find({ userId });
 };
 
-const getById = async (id, boardId) => {
-  return Task.find({ _id: id, boardId });
+const getById = async (_id, boardId) => {
+  return Task.findOne({ _id, boardId });
 };
 
 const createTask = async task => {
@@ -21,8 +21,7 @@ const updateTask = async taskToUpdate => {
 };
 
 const deleteTask = async (id, boardId) => {
-  const result = (await Task.deleteOne({ _id: id, boardId })).deletedCount;
-  return result === 1;
+  return (await Task.deleteOne({ _id: id, boardId })).ok;
 };
 
 module.exports = {

@@ -3,7 +3,7 @@ const { NOT_FOUND, OK } = require('http-status-codes');
 const User = require('./user.model');
 const usersService = require('./user.service');
 const catchErrors = require('../../utils/catch-errors');
-const { ErrorHandler } = require('../../utils/error');
+const ErrorHandler = require('../../utils/error-handler');
 
 router.route('/').get(
   catchErrors(async (req, res) => {

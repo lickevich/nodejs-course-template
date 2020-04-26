@@ -1,11 +1,11 @@
 const Board = require('./board.model');
 
 const getAll = async () => {
-  return Board.find({});
+  return await Board.find({}).exec();
 };
 
 const getById = async id => {
-  return Board.findById(id);
+  return await Board.findById(id).exec();
 };
 
 const createBoard = async board => {
@@ -13,7 +13,7 @@ const createBoard = async board => {
 };
 
 const updateBoard = async boardToUpdate => {
-  return Board.updateOne({ _id: boardToUpdate.id }, boardToUpdate);
+  return await Board.updateOne({ _id: boardToUpdate.id }, boardToUpdate).exec();
 };
 
 const deleteBoard = async id => {

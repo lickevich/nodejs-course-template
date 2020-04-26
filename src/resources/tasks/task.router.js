@@ -7,7 +7,7 @@ const {
 } = require('http-status-codes');
 const tasksService = require('./task.service');
 const catchErrors = require('../../utils/catch-errors');
-const { ErrorHandler } = require('../../utils/error');
+const ErrorHandler = require('../../utils/error-handler');
 const Task = require('./task.model');
 
 router.route('/:boardId/tasks/').get(

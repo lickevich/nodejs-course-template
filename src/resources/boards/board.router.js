@@ -7,7 +7,7 @@ const {
 } = require('http-status-codes');
 const boardsService = require('./board.service');
 const catchErrors = require('../../utils/catch-errors');
-const { ErrorHandler } = require('../../utils/error');
+const ErrorHandler = require('../../utils/error-handler');
 const Board = require('./board.model');
 
 router.route('/').get(
